@@ -1,6 +1,13 @@
-strut {
+// structs
+struct {
   char nome[50];
   int idade;
   float altura;
+};
 
-}
+// struct ponteiro 
+struct No {
+  int dado;
+  struct No * proximo;
+
+};
